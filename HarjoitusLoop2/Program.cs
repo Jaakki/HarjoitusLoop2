@@ -62,7 +62,7 @@ namespace HarjoitusLoop2
                 x += comics[i].price;
                 Console.WriteLine($"{comics[i].name} | {comics[i].publisher} | issue:{comics[i].issueNumber} | {comics[i].price}$");
             }
-            Console.WriteLine($"{x}");
+            Console.WriteLine($"\n{x}");
             Console.WriteLine($"{x / y}");
         }
     }
